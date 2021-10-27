@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Triangle</title>
+    <style>
+      .x {
+        height: 0px;
+        width: 0px;
+        position: relative;
+        border: 150px solid transparent;
+        margin-left: 500px;
+      }
+      #a {
+        border-bottom: 150px solid #000000;
+        z-index: 3;
+      }
+      #b {
+        border-bottom: 150px solid rgb(226, 226, 18);
+        bottom: 220px;
+        z-index: 2;
+      }
+      #c {
+        border-bottom: 150px solid #000;
+        bottom: 440px;
+        z-index: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="x" id="a"></div>
+    <div class="x" id="b"></div>
+    <div class="x" id="c"></div>
+  </body>
+</html>
